@@ -1,0 +1,19 @@
+{
+  "_comment": "6G profile deltas over base (DESIGN.md section 6).",
+  "env": {
+    "fc_ghz": 28.0,
+    "total_prbs": 273,
+    "prbs_per_unit": 27,
+    "load_target": 0.65,
+    "p_block": 0.05,
+    "ris_modes": 2,
+    "ris_gain_db": 10.0,
+    "isac": true
+  },
+  "traffic": {
+    "urllc_deadline_s": 0.005,
+    "regime_mode": "switches",
+    "regime_multipliers": [0.6, 1.6, 1.0],
+    "regime_switch_fractions": [0.33, 0.66]
+  }
+}

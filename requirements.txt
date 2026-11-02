@@ -1,0 +1,15 @@
+# SER-Slice dependency policy (DESIGN.md section 10)
+#
+# CORE (M0 reference skeleton): Python 3.9+ standard library ONLY.
+# The env, SER-DQN agent (manual backprop + Adam), baselines, training and
+# evaluation all run with zero installed packages.
+#
+# OPTIONAL acceleration path (M2+) - uncomment when running full campaigns:
+# numpy        # vectorized channel/traffic math
+# torch        # production DQN backend replacing ser_slice/agents/nets.py
+# gymnasium    # real Env base, wrappers, registry
+# matplotlib   # monitor.py figures F1-F6
+# pandas       # CSV analytics in notebooks
+#
+# DEV:
+# pytest
