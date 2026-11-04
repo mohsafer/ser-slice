@@ -1,4 +1,4 @@
-# SER-Slice — Stochastic Entropy-Regularized DQN for 5G→6G RAN Slicing
+# SER-Slice — Stochastic Entropy-Regularized DQN for 5G→6G RAN Slicing [under development]
 
 A **fully theoretical, pure-software** simulation project: a reinforcement learning
 agent learns to dynamically split the radio resources of a 5G (and 6G) base station
